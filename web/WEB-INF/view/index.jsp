@@ -15,10 +15,12 @@
 <h2>USD to VND Converter</h2>
 <form action="converter" method="get">
     <label>Rate: </label><br/>
-    <input type="text" name="rate" placeholder="RATE" value="22900"/><br/>
+    <input type="text" name="rate" placeholder="RATE" value=${rate}/><br/>
     <label>USD: </label><br/>
-    <input type="text" name="usd" placeholder="USD" value="0"/><br/>
-    <input type = "submit" id = "submit" value = "CONVERT"/>
+    <input type="text" name="usd" placeholder="USD" value=${usd}/><br/>
+    <input type = "submit" id = "submit" value = "CONVERT"/><br/>
+    <label>VND: </label><br/>
+    <input type="text" name="vnd" value=${vnd}><br/>
 </form>
 </body>
 </html>
